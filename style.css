@@ -37,7 +37,7 @@ main {
     flex-direction: column;
 }
 .main-container-eslogan img {
-  width: 400px;
+  width: 380px;
  height: 70px;
 }
 .main-container-eslogan img:nth-child(2) {
