@@ -37,14 +37,14 @@ main {
     flex-direction: column;
 }
 .main-container-eslogan img {
-  width: 390px;
- height: 60px;
+  width: 400px;
+ height: 70px;
 }
 .main-container-eslogan img:nth-child(2) {
-  width: 180px;
+  width: 220px;
   height: auto;
   position: absolute;
-  bottom: 51%;
+  bottom: 48%;
   right: 5%;
 }
 .section-sobre-lichi {
