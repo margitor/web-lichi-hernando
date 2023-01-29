@@ -30,21 +30,21 @@ main {
 }
 .main-container-eslogan {
   width: auto;
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
 .main-container-eslogan img {
-  width: 375px;
+  width: 390px;
  height: 60px;
 }
 .main-container-eslogan img:nth-child(2) {
   width: 180px;
   height: auto;
   position: absolute;
-  bottom: 60%;
+  bottom: 51%;
   right: 5%;
 }
 .section-sobre-lichi {
