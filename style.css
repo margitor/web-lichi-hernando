@@ -16,6 +16,7 @@ body {
 .btn:hover {
   background-color: #f15a28;
 }
+/*estilos main*/
 main {
     background-image: url(images/hero-prueba.jpg);
     background-position: center;
@@ -53,22 +54,30 @@ main {
   align-items: center;
 }
 .main-img-lichi23 {
-  width: 200px;
+  width: 220px;
   height: auto;
   position: absolute;
-    top: 22%;
+    top: 18%;
 }
+/*estilos sobre lichi*/
 .section-sobre-lichi {
     width: 100%;
     height: 100vh;
     background-color: #00aeef;
 }
+
+/*animación entre secciones*/
 .fadeTop {
     opacity: 0; 
-    transform: translate(0, 10vh);
+    transform: translate(0, 5vh);
     transition: all 1s;
   }
 .visible {
     opacity: 1;
     transform: translate(0, 0);
   }
+
+/*media queries*/
+@media screen and  {
+  
+}
