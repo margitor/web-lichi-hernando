@@ -93,3 +93,13 @@ main {
     max-width: 320px;
   }
  }
+@media screen and (min-width:1440px) and (max-width:1920px) {
+  .main-container-eslogan img {
+    width: 800px;
+    height: auto;
+  }
+  .main-img-lichi23 {
+    top: 18%;
+    width: 400px;
+  }
+}
