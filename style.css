@@ -78,6 +78,18 @@ main {
   }
 
 /*media queries*/
-@media screen and  {
-  
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .main-img-lichi23 {
+    top: 24%;
+  }
 }
+@media screen and (min-width:1024px) and (max-width:1440px) {
+  .main-container-eslogan img {
+    width: 500px;
+   max-height: 155px;
+  }
+  .main-img-lichi23 {
+    top: 16%;
+    max-width: 320px;
+  }
+ }
