@@ -19,7 +19,7 @@ body {
 }
 /*estilos main*/
 main {
-    background-image: url(images/hero-prueba.jpg);
+    background-image: url(images/hero-hernando.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@ main {
 /*estilos sobre lichi*/
 .section-sobre-lichi {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background-color: white;
     display: flex;
     align-items: center;
@@ -110,6 +110,17 @@ main {
 .item-naranja {
   color: #f15a28;
 }
+footer {
+  width: 100%;
+  height: fit-content;
+}
+footer h6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*animación entre secciones*/
 .fadeTop {
     opacity: 0; 
@@ -129,15 +140,16 @@ main {
 }
 @media screen and (min-width:1024px) and (max-width:1440px) {
   .main-container-eslogan img {
-    width: 500px;
-   max-height: 155px;
+    width: 650px;
+   max-height: 230px;
   }
   .main-img-lichi23 {
     top: 20%;
-    max-width: 320px;
+    max-width: 350px;
   }
   .section-sobre-lichi {
     flex-direction: column;
+    height: 100vh;
 }
 .sobreLichi-container-wrapped {
   flex-wrap: nowrap;
