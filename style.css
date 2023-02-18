@@ -72,6 +72,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 #sobreLichi-titulo {
   font-size: 35px;
@@ -115,15 +116,39 @@ main {
 .item-gris {
   color:#bebfc2 ;
 }
+.strongItem-naranja {
+  color: #f15a28;
+}
+/*estilos redes*/
+.redesSociales {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.container-feed-redes {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
 /*estilos plan de trabajo*/
 
 .planTrabajo {
   width: 100%;
-  height: auto;
+  height: fit-content;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 #planTrabajo-titulo {
   font-size: 35px;
@@ -132,23 +157,42 @@ main {
   text-transform: uppercase;
 }
 .container-txt-planTrabajo {
-  width: 80%;
+  width: 95%;
   height: fit-content;
   margin-top: 20px;
 }
-
+.lista {
+  margin-bottom: 10px;
+}
+.sublista {
+  margin-bottom: 5px;
+}
 /*estilos footer*/
 footer {
   width: 100%;
   height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bebfc2;
 }
 footer h6 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: white;
 }
-
+.container-footer-redes img {
+  width: 40px;
+  margin: 10px;
+}
+.container-footer-redes {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
 /*animación entre secciones*/
 .fadeTop {
     opacity: 0; 
@@ -164,6 +208,9 @@ footer h6 {
 @media screen and (min-width:768px) and (max-width:1024px) {
   .main-img-lichi23 {
     top: 24%;
+  }
+  .container-txt-planTrabajo {
+    width: 80%;
   }
 }
 @media screen and (min-width:1024px) and (max-width:1440px) {
@@ -194,6 +241,9 @@ footer h6 {
 .sobreLichi-presentacion-items li {
   line-height: 35px;
 }
+.container-txt-planTrabajo {
+  width: 80%;
+}
  }
 @media screen and (min-width:1440px) and (max-width:1920px) {
   .main-container-eslogan img {
@@ -215,5 +265,8 @@ footer h6 {
   }
   .sobreLichi-presentacion-items li {
     line-height: 40px;
+  }
+  .container-txt-planTrabajo {
+    width: 80%;
   }
 }
